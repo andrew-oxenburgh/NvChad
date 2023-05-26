@@ -26,5 +26,3 @@ require "plugins"
 
 require( "andrew-init").set_opts()
 
-
-print 'kjhkafdhkjsdhfkjhskdfjhd'

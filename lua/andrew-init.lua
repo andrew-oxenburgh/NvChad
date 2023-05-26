@@ -5,7 +5,6 @@ local M = {}
 
 function M.set_opts()
 
-  print 'initin my stuff'
   vim.opt.autowrite = true
   vim.g.tmpl_search_paths = {'~/.config/nvim/lua/templates'}
 

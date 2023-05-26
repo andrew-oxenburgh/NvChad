@@ -6,7 +6,7 @@ local M = {}
 
 
 function M.thing()
-  print "in thing"
+  print "in {{FILE}}" -- to show the template works works
 end
 
 
