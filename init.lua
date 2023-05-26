@@ -1,8 +1,12 @@
 require "core"
 
+require( "pre-init").set_opts()
+
 vim.g.loaded_netrw       = 1
 vim.g.loaded_netrwPlugin = 1
 
+vim.g.loaded_netrw       = 1
+vim.g.loaded_netrwPlugin = 1
 
 local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
 
@@ -24,5 +28,5 @@ dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
 
-require( "andrew-init").set_opts()
+require( "post-init").set_opts()
 
