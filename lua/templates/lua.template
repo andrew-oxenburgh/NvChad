@@ -1,0 +1,13 @@
+-- @author      : {{NAME}} ({{EMAIL}})
+-- @file        : {{FILE}}
+-- @created     : {{TIMESTAMP}}
+
+local M = {}
+
+
+function M.thing()
+  print "in thing"
+end
+
+
+return M

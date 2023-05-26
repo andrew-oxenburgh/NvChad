@@ -8,6 +8,13 @@ local default_plugins = {
   { "NvChad/extensions", branch = "v2.0" },
 
   {
+    -- DAP STUFF
+    "mxsdev/nvim-dap-vscode-js",
+    dependencies = {
+      'mfussenegger/nvim-dap'
+    }
+  },
+  {
     "NvChad/base46",
     branch = "v2.0",
     build = function()
@@ -145,9 +152,6 @@ local default_plugins = {
     init = function()
       require("core.utils").lazy_load "nvim-lspconfig"
     end,
-    config = function()
-      require "plugins.configs.lspconfig"
-    end,
   },
 
   -- load luasnips + cmp related in insert mode only
@@ -197,7 +201,10 @@ local default_plugins = {
       require("cmp").setup(opts)
     end,
   },
-
+{
+  'tibabit/vim-templates',
+    lazy = false,
+},
   {
     "numToStr/Comment.nvim",
     keys = { "gcc", "gbc" },

@@ -1,0 +1,12 @@
+/**
+ * @AUTHOR      : {{NAME}} ({{EMAIL}})
+ * @CREATED     : {{TODAY}}
+ * @FILENAME    : {{FILE}}
+ */
+#IFNDEF {{MACRO_GUARD}}
+#DEFINE {{MACRO_GUARD}}
+
+/* DECLARATIONS */
+
+#ENDIF /* {{MACRO_GUARD}} */
+:W
