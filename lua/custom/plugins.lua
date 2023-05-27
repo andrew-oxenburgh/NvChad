@@ -39,6 +39,7 @@ local plugins = {
   },
   {
      "sindrets/diffview.nvim",
+    lazy = false,
   },
 
   -- Install a plugin
