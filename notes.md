@@ -12,6 +12,8 @@
 3.  Open explorer `<leader> + e`
 4. Go to definition `ctrl-]`
 5. `:%bd|e#` close all buffers except this one
+1. After a search, use `n` `N` to repeat
+1. `!node %` to run current file
 
 ##### save all buffers
 `:wa`

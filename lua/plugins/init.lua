@@ -3,6 +3,10 @@
 local default_plugins = {
 
   "nvim-lua/plenary.nvim",
+  {
+    "mfussenegger/nvim-dap",
+    lazy = false,
+  },
 
   -- nvchad plugins
   { "NvChad/extensions", branch = "v2.0" },
@@ -10,8 +14,9 @@ local default_plugins = {
   {
     -- DAP STUFF
     "mxsdev/nvim-dap-vscode-js",
+    lazy = false,
     dependencies = {
-      'mfussenegger/nvim-dap'
+      "mfussenegger/nvim-dap",
     }
   },
   {
