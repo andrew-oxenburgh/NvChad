@@ -14,6 +14,8 @@
 5. `:%bd|e#` close all buffers except this one
 1. After a search, use `n` `N` to repeat
 1. `!node %` to run current file
+1. `set filetype?` to find out file type
+
 
 ##### save all buffers
 `:wa`
